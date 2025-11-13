@@ -1,11 +1,4 @@
-//
-//  NodeView.swift
-//  ASD7-11
-//
-//  Created by Valentyn on 13.11.2025.
-//
-
-
+import SwiftUI
 // MARK: - Допоміжні View
 
 struct NodeView: View {

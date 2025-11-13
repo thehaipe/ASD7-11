@@ -10,9 +10,33 @@
 		A37078BE2EC5910700084DAF /* ASD7-11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASD7-11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A31135A62EC6808F00CE8C75 /* Exceptions for "ASD7-11" folder in "ASD7-11" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+			);
+			target = A37078BD2EC5910700084DAF /* ASD7-11 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		A31135A72EC6808F00CE8C75 /* Exceptions for "ASD7-11" folder in "Compile Sources" phase from "ASD7-11" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = A37078BA2EC5910700084DAF /* Sources */;
+			membershipExceptions = (
+				.gitignore,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A37078C02EC5910700084DAF /* ASD7-11 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A31135A62EC6808F00CE8C75 /* Exceptions for "ASD7-11" folder in "ASD7-11" target */,
+				A31135A72EC6808F00CE8C75 /* Exceptions for "ASD7-11" folder in "Compile Sources" phase from "ASD7-11" target */,
+			);
 			path = "ASD7-11";
 			sourceTree = "<group>";
 		};
