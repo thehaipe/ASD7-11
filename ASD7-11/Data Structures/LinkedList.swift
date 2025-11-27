@@ -53,7 +53,7 @@ class LinkedList<T: Comparable>: ObservableObject {
         head = nil
     }
     
-    // MARK: - Операції за умовою задачі
+    // MARK: - Операції за індивідуального завдання
     
     func countElements() -> Int {
         var count = 0

@@ -18,6 +18,8 @@ struct ContentView: View {
             switch selectedStructure {
             case .linkedList:
                 LinkedListView()
+            case .binaryTree:
+                TreeView()
             case nil:
                 Text("Оберіть структуру даних з бічної панелі")
             }

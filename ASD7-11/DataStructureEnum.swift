@@ -1,6 +1,6 @@
 enum DataStructureEnum: String, CaseIterable, Identifiable {
     case linkedList
-    
+    case binaryTree
     
     // id потрібен для Identifiable
     var id: String { self.rawValue }
@@ -10,6 +10,8 @@ enum DataStructureEnum: String, CaseIterable, Identifiable {
         switch self {
         case .linkedList:
             return "Linked List"
+        case .binaryTree:
+            return "Binary Search Tree" 
         }
     }
 }
