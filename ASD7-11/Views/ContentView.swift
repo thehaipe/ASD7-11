@@ -20,6 +20,8 @@ struct ContentView: View {
                 LinkedListView()
             case .binaryTree:
                 TreeView()
+            case .binarySearch:
+                BinarySearchView()
             case nil:
                 Text("Оберіть структуру даних з бічної панелі")
             }
